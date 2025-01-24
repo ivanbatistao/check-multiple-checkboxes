@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  background-color: #fec700;
+}
+
+.items {
+  background-color: #ffffff;
+  max-width: 32rem;
+  box-shadow: 0.5rem 0.5rem #e5b401;
+  border: 0.2rem solid #f5f5f5;
+  border-radius: 0.4rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  border: 0.2rem solid #f5f5f5;
+  padding: 1.2rem;
+}
+
+input {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+label {
+  margin-left: 1.2rem;
+  font-size: 2rem;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+}
+
+.item:has(input:checked) {
+  background-color: #f9f9f9;
+}
