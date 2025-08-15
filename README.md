@@ -52,7 +52,7 @@ This project works in all modern browsers that support:
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://mit-license.org/).
 
 ## Acknowledgements
 
